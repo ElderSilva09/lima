@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<!DOCTYPE html><!--Identifica a versão 5 do HTML-->
+<html lang="pt-br"><!--Declara que este trecho do arquivo representa código em HTML-->
+<head><!--Declara matainformações sobre a página-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Guia completo sobre HTML e suas tags">
@@ -22,34 +22,134 @@
 <body>
 
     <header>
+    <center>
         <h1 style="font-family: Playfair Display, sans-serif">Bem-vindo ao site</h1>
+    </center>
     </header>
     
-    <main>
-    <p>
-        Este é uma página teste definida em português do Brasil.
-    </p>
+        <main>
+        <p>
+            <h4>Este é uma página teste definida em português do Brasil.</h4>
+        </p>
 
-    <p>
-        Ayrton Senna é uma lenda da Fórmula 1
-    </p>
+        <p>
+            Ayrton Senna é uma <b>lenda</b> da Fórmula 1
+        </p>
 
-    <p>
-        Hamilton é o melhor piloto
-    </p>
+        <p>
+            Hamilton é o melhor piloto
+        </p>
 
-    <p>
-        Kimi Antonelli é o pioloto do ano
-    </p>
+        <p>
+            Kimi Antonelli é o <u>pioloto do ano</u>
+        </p>
 
-    <p id="paragrafo">  
-        Verstappen é muito ruim
-    </p>
-    
-    <button id="botao">
-        Clique para !discordar
-    </button>
-    </main>
+        <p id="paragrafo">  
+            Verstappen é muito <i>ruim</i>
+        </p>
+        
+        <button id="botao">
+            Clique para !discordar
+        </button>
+        
+        <hr>
+            <p>
+                Every Friday, Saturday, Sunday<br>
+                Endless weekend, on a wave, yeah<br>
+            <p>
+            </p>
+                It's Friday again<br>
+                It's Saturday, Sunday, what?<br>
+                It's Friday again<br>
+                It's Saturday, Sunday, what?<br>
+            </p>
+
+            <!-- <p>Este é um abre chevron &lt;</p> -->
+            <!-- <p>Este é um abre chevron &gt;</p> -->
+
+            <h2>Minha lista para ter um carro de Fómula 1</h2>
+            <ul type="square">
+                <!--Lista não ordenada, usada para itens sem ordem específica-->
+                <!-- Cada item da item  da lista é definido pela tag <li> -->
+                
+                <li>Carro de Fórmula 1</li>
+                <li>Capacete</li>
+                <li>Macacão</li>
+            </ul>
+
+            <ul type="disc">
+                <li>Item com marcador padrão (disc) </li>
+            </ul>
+
+            <ul type="circle">
+                <li>Item com marcador de círculo vazio (circle) </li>
+            </ul>
+
+            <ul type="square">
+                <li>Item com marcador cheio (square) </li>
+            </ul>
+
+            <h2>Itens de carro de F1</h2>
+
+            <ol>
+                <!--Lista ordenada com os passos simples para ligar um computador-->
+                <!--Cada item é definido pela tag <li> -->
+                <li>Asa traseira</li>
+                <li>Asa dianteira</li>
+                <li>Suspensão traseira</li>
+            </ol>
+
+            
+            <ol start="4" !--reversed type="1"-->
+                <li style="color: rgb(229, 255, 0);">4 pneus intermediários</li>
+                <li>4 pneus macios</li>
+                <li>4 pneus duros</li>
+            </ol>
+
+            <p>
+                <a 
+                    href="https://www.formula1.com/" 
+                    target="_blank" 
+                    title="Acesse o site oficial da Fórmula 1"
+                    rel="nofollow noopener"
+                    >
+                    Acesse o site oficial da Fórmula 1
+                </a>
+            </p>
+
+        <p>
+            <a 
+                href="https://music.youtube.com/watch?v=QBujjGr_ZxY"
+                target="_blank"
+            >
+            <img 
+                src="./Race_week.png" 
+                alt="Logo da Fórmula 1" 
+                width="200" 
+                height="200"
+            >
+            </a>
+        </p>
+
+        <table border="1" cellpadding="2" cellspacing="0" width="80%" align="center"><!--Elemento de tabela-->
+            <tr><!--Elemento linha de tabela(table row)-->
+                <th>Nome </th>
+                <th>Idade </th>
+                <th>Cidade </th>
+            </tr>
+            <tr>
+                <td>Elder </td>
+                <td><center>16 </center></td>
+                <td>São Paulo </td>
+            </tr>
+            <tr>
+                <td>Ana </td>
+                <td><center>16 </center></td>
+                <td>São Paulo </td>
+            </tr>
+        </table>
+
+        </main>
 
     <footer>
         &copy; 2026 - Todos os direitos reservados.

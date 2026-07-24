@@ -1,0 +1,44 @@
+body{
+    background-color: #000a94;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#nome{
+    background-color: #CC0000;
+}
+#email{
+    background-color: #00A19C;
+}
+#senha{
+    background-color: #00ff00;
+}
+#telefone{
+    background-color: #00ffff;
+}
+#data-nascimento{
+    background-color: #0000ff;
+}
+#idade{
+    background-color: #0000ff;
+}
+#website{
+    background-color: #0105c1;
+}
+#comentarios{
+    background-color: #e5ff00;
+}
+
+h1{
+    font-size: 24px;
+    color: #fffcfc;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
