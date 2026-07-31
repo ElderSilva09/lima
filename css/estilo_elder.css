@@ -1,0 +1,18 @@
+body{
+    background-image: url("./F1.png");
+    background-color: #00078e;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: cover;*/
+    background-attachment: fixed;
+    background-size: auto 600px;
+}
+
+h1{
+    color: #f6ff00;
+}
+
+p{
+    font-size: 30px;
+    color: #00fff2;
+}

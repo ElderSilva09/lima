@@ -10,6 +10,9 @@ body{
     justify-content: center; /*Centraliza os elementos horizontalmente*/
     align-items: center; /*Centraliza os elementos verticalmente*/
     height:100vh;/*Define a altura do corpo como 100% da altura da janela de visualização(viewport)*/
+    background-image: url("./fundo.jpg");
+    background-position: center;
+    background-size: 43%;
 }
 .card-container{
     display: flex;/*Utiliza o modelo de leiaute flex box para os itens dentro do contêiner*/
@@ -26,9 +29,36 @@ body{
     padding: 20px; /*Adiciona um preenchimento interno de 20px ao cartão*/
     border-radius: 10px; /*Adiciona cantos arredondados ao cartão*/
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /*Adiciona uma sombra ao cartão para dar profundidade*/
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /*Adiciona uma transição suave para a transformação e a sombra do cartão*/
 }
 
 .card:hover{
     transform: translateY(-10px); /*Move o cartão 10px para cima quando o mouse estiver sobre ele*/
-    box-shadow: 0px 8px 20px rgba(255, 0, 0, 0.15); /*Aumenta a sombra do cartão quando o mouse estiver sobre ele*/
+    box-shadow: 0px 6px 20px rgba(255, 0, 0, 0.15); /*Aumenta a sombra do cartão quando o mouse estiver sobre ele*/
+}
+
+.card h2{
+    color:#395072;/*Define a cor do título do cartão como azul escuro*/
+    margin-bottom: 10px; /*adiciona uma margem inferior a 10px ao título*/
+}
+
+.card p{
+    color: #0792ef; /*Define a cor do texto dentro do cartão como azul*/
+    font-size: 14px;
+    margin-bottom:20px;
+}
+
+.btn{
+    background-color: #f7d91f;
+    color: #fffffe;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5%;
+    cursor: pointer; /*O cursor do mouse vira uma "mãozinha  com o dedo indicador esticado*/
+    transition: backgorund-color 10.3s ease;/*Aplica uma transição suave de 0.3 à cor de fundo do botão*/
+}
+
+.btn:hover{
+    background-color: #e35e0a;
 }
