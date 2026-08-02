@@ -19,7 +19,7 @@ body{
     height: 100vh; /*Contêiner ocupa 100% do viewport.*/
     gap: 10px; /*Espaço entre as células da grelha(grid)*/
     padding: 10px;/*Preenchimento interno ao redor do grid*/
-
+    /*background-image: url("");*/
 }
 
 /*Estilizando cada áre do grid*/
